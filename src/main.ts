@@ -2,7 +2,7 @@ import {ErrorHandler} from '@angular/core';
 import {provideHttpClient} from '@angular/common/http';
 
 import {unregisterServiceWorkers} from './unregister-service-workers';
-import {MaterialDocsApp} from './app/material-docs-app';
+import {MaterialDocsApp} from './app';
 import {MATERIAL_DOCS_ROUTES} from './app/routes';
 import {withInMemoryScrolling, provideRouter} from '@angular/router';
 import {provideAnimations, provideNoopAnimations} from '@angular/platform-browser/animations';
